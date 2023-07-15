@@ -17,7 +17,7 @@
 body{
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-color: var(--Pale-blue);
     min-height: 100vh;
     display: flex;
