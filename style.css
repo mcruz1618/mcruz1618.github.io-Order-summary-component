@@ -26,18 +26,18 @@ body{
     font-family: 'Red Hat Display', sans-serif;
 }
 .card{
-    max-width: 400px;
+    max-width: 450px;
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
 }
 .card--text{
-    padding: 7%;
+    padding: 5% 10%;
     text-align: center;
 }
 .card--title{
     font-weight: 900;
-    font-size: 27px;
+    font-size: 28px;
     color: var(--Dark-blue);
     margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: var(--Very-pale-blue);
-    padding: 20px;
+    padding: 25px;
     margin: 23px 0;
     border-radius: 20px;
 }
@@ -62,6 +62,9 @@ body{
     .plan--text{
         margin-left: 15px;
         text-align: start;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
     }
         .plan--title{
             font-weight: 900;
@@ -73,6 +76,7 @@ body{
     .plan--right{
         color: var(--Bright-blue);
         font-weight: 700;
+        font-size:15px;
         transition: color .2s ease;
     }
     .plan--right:hover{
